@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(129, 42, 155, 1) 0%, rgba(121, 87, 199, 1) 50%, rgba(237, 83, 198, 1) 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: 5rem;
+}
+
+p{
+  font-weight: bold;
+}
+
+#wrapper{
+  margin-top: 4rem;
+}
